@@ -62,7 +62,7 @@ namespace algo {
     }
   };
 
-  class SelectionSort : public IAlgo {
+  class SelectionSort : public IAlgo { //selection sort
   public:
     void run(){
       size_t size = target.size();
@@ -80,7 +80,7 @@ namespace algo {
     }
   };
 
-  class MonkeySort : public IAlgo {
+  class MonkeySort : public IAlgo { // monkey sort
   private:
     bool isSorted() {
       size_t size = target.size();
@@ -101,7 +101,7 @@ namespace algo {
     }
   };
 
-  class InsertionSort : public IAlgo {
+  class InsertionSort : public IAlgo { //insertionsort
   public:
     void run(){
       size_t size = target.size();
